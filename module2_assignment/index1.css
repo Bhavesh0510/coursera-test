@@ -8,21 +8,21 @@ h1{
 .row{
 	width: 100%;
 }
-.box1 #s1{
+#s1{
 	background-color: pink;
 	border: 1px solid black; 
 	text-align: center;
 	width: 130px;
 	float: right;
 }
-.box2 #s2{
+#s2{
 	background-color: red;
 	border: 1px solid black; 
 	text-align: center;
 	width: 130px;
 	float: right;
 }
-.box3 #s3{
+#s3{
 	background-color: yellow;
 	border: 1px solid black; 
 	text-align: center;
