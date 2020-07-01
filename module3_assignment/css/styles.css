@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+h1{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 5px;
+}
+.row{
+	width: 100%;
+}
+.container{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#s1{
+	background-color: pink;
+	border: 1px solid black; 
+	text-align: center;
+	width: 130px;
+	float: right;
+}
+#s2{
+	background-color: red;
+	border: 1px solid black; 
+	text-align: center;
+	width: 130px;
+	float: right;
+}
+#s3{
+	background-color: yellow;
+	border: 1px solid black; 
+	text-align: center;
+	width: 130px;
+	float: right;
+}
+section{
+	background-color: grey;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+
+}
+p{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+}/*
+@media (min-width: 992px){
+	.box1 , .box2 , .box3 {
+		float: left;
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.box1 , .box2 {
+		float: left;
+		width: 50%;
+	}
+	.box3 {
+		float: left;
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.box1 , .box2 , .box3 {
+		float: left;
+		width: 100%;
+	}
+}*/
+.navbar-brand h1{
+	font-size: 2em;
+	border: 0 0 10px 10px;
+	color: #557c3e;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#header-nav{
+	border: 0;
+	background-color: lightblue;
+	color:white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+	float: right;
+	margin: 10px;
+}
+.navbar-header{
+	background-color: lightblue;
+}
+.navbar-brand{
+	color: yellow;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+	font-size: 1.8em;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+body{
+	background-color: lightyellow;
+}
+h4{
+	text-align: center;
+	color: red;
+	text-decoration: none;
+}
+@media (max-width: 323px){
+.navbar-brand h1{
+	font-size: .5em;
+}
+	
+
+}
